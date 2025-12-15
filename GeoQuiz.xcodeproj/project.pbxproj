@@ -1,0 +1,374 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		089635B6287FB7176589007F /* ContentViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4228797CA0AC278F93509AF /* ContentViewModel.swift */; };
+		0C4D4C48FCD6C8A2EADFCA0E /* QuizView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDD0A34B147FF28136FAAF1A /* QuizView.swift */; };
+		28AE8091585ABB03E29C4B2C /* Country.swift in Sources */ = {isa = PBXBuildFile; fileRef = 486815C8D882C812C75FD84A /* Country.swift */; };
+		2EEB7AF2B62A44873635926C /* MyApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21021F1738742A2679B3BF4E /* MyApp.swift */; };
+		4D82F9E0A5598B975C6C1D92 /* QuizQuestion.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E3EB1A8652E9516C5AFD36A /* QuizQuestion.swift */; };
+		638048E8340D903C81CC7FF0 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA9E941E28701EABC20248C5 /* Extensions.swift */; };
+		98D34431D2A1A8EE9B363D15 /* Config.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D9A3A8133CD307059946A4D /* Config.swift */; };
+		B8597959A38CFEF920B1152F /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98B4C60F79F9F15F51CBAC77 /* User.swift */; };
+		E0D489B803A37182FBC910C3 /* NetworkService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B87B0908D79E8D396ABECC2 /* NetworkService.swift */; };
+		E530D6782BAD0758001168E1 /* QuizViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B6FD3BBD089F30205FFF097 /* QuizViewModel.swift */; };
+		FFBE73BF423AF55FBEE72A5E /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 967AFAA4C99ABB40028FF65C /* ContentView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		21021F1738742A2679B3BF4E /* MyApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyApp.swift; sourceTree = "<group>"; };
+		2B87B0908D79E8D396ABECC2 /* NetworkService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkService.swift; sourceTree = "<group>"; };
+		486815C8D882C812C75FD84A /* Country.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Country.swift; sourceTree = "<group>"; };
+		5E3EB1A8652E9516C5AFD36A /* QuizQuestion.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuizQuestion.swift; sourceTree = "<group>"; };
+		6B6FD3BBD089F30205FFF097 /* QuizViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuizViewModel.swift; sourceTree = "<group>"; };
+		6D9A3A8133CD307059946A4D /* Config.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Config.swift; sourceTree = "<group>"; };
+		967AFAA4C99ABB40028FF65C /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		98B4C60F79F9F15F51CBAC77 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		A3B839C8173E09DFCA4F9B67 /* GeoQuiz.app */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.application; path = GeoQuiz.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DA9E941E28701EABC20248C5 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		F4228797CA0AC278F93509AF /* ContentViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentViewModel.swift; sourceTree = "<group>"; };
+		FDD0A34B147FF28136FAAF1A /* QuizView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuizView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+		3E4CDB920A1741ACF760F84C /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				2B87B0908D79E8D396ABECC2 /* NetworkService.swift */,
+			);
+			name = Services;
+			path = Services;
+			sourceTree = "<group>";
+		};
+		8115016BC10D87FEB7B5C24D = {
+			isa = PBXGroup;
+			children = (
+				E076FACA4C9DCF1D032BBC86 /* App */,
+				AD9B449A667E40AB1012F290 /* Models */,
+				3E4CDB920A1741ACF760F84C /* Services */,
+				95EE0F0797F023BE43116540 /* Utilities */,
+				A49CD7E65B00C8D93FE304F0 /* ViewModels */,
+				E8E1F5135B8DB08BAEDD0EF7 /* Views */,
+				D3287785CE512DA24531417F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		95EE0F0797F023BE43116540 /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				6D9A3A8133CD307059946A4D /* Config.swift */,
+				DA9E941E28701EABC20248C5 /* Extensions.swift */,
+			);
+			name = Utilities;
+			path = Utilities;
+			sourceTree = "<group>";
+		};
+		A49CD7E65B00C8D93FE304F0 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				F4228797CA0AC278F93509AF /* ContentViewModel.swift */,
+				6B6FD3BBD089F30205FFF097 /* QuizViewModel.swift */,
+			);
+			name = ViewModels;
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		AD9B449A667E40AB1012F290 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				486815C8D882C812C75FD84A /* Country.swift */,
+				5E3EB1A8652E9516C5AFD36A /* QuizQuestion.swift */,
+				98B4C60F79F9F15F51CBAC77 /* User.swift */,
+			);
+			name = Models;
+			path = Models;
+			sourceTree = "<group>";
+		};
+		D3287785CE512DA24531417F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A3B839C8173E09DFCA4F9B67 /* GeoQuiz.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E076FACA4C9DCF1D032BBC86 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				21021F1738742A2679B3BF4E /* MyApp.swift */,
+			);
+			name = App;
+			path = App;
+			sourceTree = "<group>";
+		};
+		E8E1F5135B8DB08BAEDD0EF7 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				967AFAA4C99ABB40028FF65C /* ContentView.swift */,
+				FDD0A34B147FF28136FAAF1A /* QuizView.swift */,
+			);
+			name = Views;
+			path = Views;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F359A9D6FEC95DC2D8814E62 /* GeoQuiz */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6B767D044716D914406A4FDD /* Build configuration list for PBXNativeTarget "GeoQuiz" */;
+			buildPhases = (
+				1B46662213685A8EE4D91E05 /* Sources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GeoQuiz;
+			packageProductDependencies = (
+			);
+			productName = GeoQuiz;
+			productReference = A3B839C8173E09DFCA4F9B67 /* GeoQuiz.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		77A13698DAFBBE1F57E2EC98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastUpgradeCheck = 1430;
+			};
+			buildConfigurationList = F539AF67BD4447DF308619C8 /* Build configuration list for PBXProject "GeoQuiz" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = 8115016BC10D87FEB7B5C24D;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F359A9D6FEC95DC2D8814E62 /* GeoQuiz */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1B46662213685A8EE4D91E05 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				98D34431D2A1A8EE9B363D15 /* Config.swift in Sources */,
+				FFBE73BF423AF55FBEE72A5E /* ContentView.swift in Sources */,
+				089635B6287FB7176589007F /* ContentViewModel.swift in Sources */,
+				28AE8091585ABB03E29C4B2C /* Country.swift in Sources */,
+				638048E8340D903C81CC7FF0 /* Extensions.swift in Sources */,
+				2EEB7AF2B62A44873635926C /* MyApp.swift in Sources */,
+				E0D489B803A37182FBC910C3 /* NetworkService.swift in Sources */,
+				4D82F9E0A5598B975C6C1D92 /* QuizQuestion.swift in Sources */,
+				0C4D4C48FCD6C8A2EADFCA0E /* QuizView.swift in Sources */,
+				E530D6782BAD0758001168E1 /* QuizViewModel.swift in Sources */,
+				B8597959A38CFEF920B1152F /* User.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		0FA0CA282F63AD91657A703A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 1.0.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.9;
+			};
+			name = Release;
+		};
+		4DF9935C8F4C0C63C94724A8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.paulwmtl.GeoQuiz;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		EC1368BF7592BE9FC7D723DE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.paulwmtl.GeoQuiz;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		F9638D6D81E565FF5034BEEF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					"DEBUG=1",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 1.0.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.9;
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6B767D044716D914406A4FDD /* Build configuration list for PBXNativeTarget "GeoQuiz" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4DF9935C8F4C0C63C94724A8 /* Debug */,
+				EC1368BF7592BE9FC7D723DE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		F539AF67BD4447DF308619C8 /* Build configuration list for PBXProject "GeoQuiz" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F9638D6D81E565FF5034BEEF /* Debug */,
+				0FA0CA282F63AD91657A703A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 77A13698DAFBBE1F57E2EC98 /* Project object */;
+}

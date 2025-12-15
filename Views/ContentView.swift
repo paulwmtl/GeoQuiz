@@ -86,10 +86,10 @@ struct ContentView: View {
                     Spacer()
                     
                     // CTA Button
-                    Button {
-                        viewModel.handleGetStarted()
+                    NavigationLink {
+                        QuizView()
                     } label: {
-                        Text("Get Started")
+                        Text("🇪🇺 EU Flaggen Quiz starten")
                             .font(.headline)
                             .foregroundColor(.white)
                             .frame(maxWidth: .infinity)
