@@ -44,12 +44,12 @@ struct ContentView: View {
                     
                     // Welcome Text
                     VStack(spacing: 12) {
-                        Text("Welcome to")
+                        Text("Willkommen bei")
                             .font(.title2)
                             .fontWeight(.medium)
                             .foregroundColor(.white.opacity(0.8))
                         
-                        Text("Your iOS App")
+                        Text("GeoQuiz")
                             .font(.system(size: 40, weight: .bold))
                             .foregroundColor(.white)
                     }
